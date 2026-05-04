@@ -31,6 +31,11 @@ npm test -- --testPathPattern="usecase/product"
 npm test -- --testPathPattern="usecase/product" --testNamePattern="Unit"
 ```
 
+### Teste de unidade da entidade Product
+```bash
+npm test -- src/domain/product/entity/product.spec.ts
+```
+
 ### Testes de Integração de Product
 ```bash
 npm test -- --testPathPattern="usecase/product" --testNamePattern="Integration"
