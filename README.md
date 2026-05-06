@@ -56,6 +56,16 @@ npm test -- --testPathPattern="list.product"
 npm test -- --testPathPattern="update.product"
 ```
 
+### API Web de Product
+- Endpoint: `GET /product`
+- Retorna: `200` e JSON com os produtos cadastrados
+- Rota implementada em `src/infrastructure/api/routes/product.route.ts`
+
+### Teste E2E de Product
+```bash
+npm test -- src/infrastructure/api/__tests__/product.e2e.spec.ts --runInBand
+```
+
 ## 📁 Estrutura do Projeto
 
 ```
